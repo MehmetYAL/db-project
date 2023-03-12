@@ -33,3 +33,8 @@ from EMPLOYEES;
        FIRST_NAME || ' ' || LAST_NAME as "full name",lower (EMAIL || '@gmail.com ') as "full_email"
 from EMPLOYEES;
 
+--to remove view
+drop view Emaillist_MY;
+
+
+
